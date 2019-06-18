@@ -1,0 +1,72 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\definecolor{darkblue}{rgb}{0, 0, 0.5}
+\usepackage[colorlinks=true,allcolors=black,citecolor=darkblue]{hyperref}%
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\textbf{\LARGE Universidade de Brasília}\\[0.5cm] 
+\textbf{\large Departamento de Ciência da Computação}\\[0.2cm]
+\vspace{20pt}
+\includegraphics{Logo_UnB.png}\\[1cm]
+
+\par
+\vspace{32pt}
+\textbf{\LARGE Seminário de Arquitetura de processadores digitais - GPU }\\
+\vspace{30pt}
+\textbf {\Large Autor:}\\[0.2cm]
+\Large {Pedro Oliveira		17/0163768}\\[0.1cm]
+
+\end{center}
+
+\par
+\vfill
+\begin{center}
+{{\normalsize Brasília}\\
+{\normalsize \today}}
+\end{center}
+\end{titlepage}
+
+%Sumário
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+%End Sumário
+
+\newpage
+
+
+
+\section{Resumo}
+O seguinte artigo, busca apresentar um pouco sobre as GPUs e suas soluções.
+
+
+\section{Introdução}
+Utilizada pelas mais diversas plataformas, as GPU's ou unidades de processamento gráfico se tornaram uma peça fundamental nos sistemas computacionais \cite{owens2008gpu}. Originalmente utilizadas para otimizar o tempo de geração de gráficos 2D e 3D, imagens e vídeos de sistemas operacionais, as GPU's estão agora presentes em notebooks, smartphones, tablets, vídeo-games, e até mesmo em automóveis. E ainda, por ser um processador com grande poder de paralelismo, os fabricantes de GPU's também tem mantido o foco em outras áreas onde o processamento paralelo pode ser utilizado, como simulações por análise de elementos finitos e processamento de sinais. Com isso surgiu um novo termo, GP-GPU, que são GPU's de propósito geral. Existem GPU's que são produzidas sem saída de vídeo na placa, normalmente essas placas possuem vários chips de GPU's
+destinados ao mercado de processamento de alto desempenho, como é o caso de algumas GPU's da arquitetura NVIDIA, como a NVIDIA Tesla. Atualmente o mercado de GPU's, está dominado por três grande fabricantes, Intel, NVIDIA e ATI, sendo que a Intel está mais voltado a produção de processadores gráficos de baixo custo, integrados à placas-mãe, enquanto que a NVIDIA e a ATI atuam nos demais segmentos \cite{machado}.
+
+\section{Pipeline Tradicional}
+Quando a GPU é 
+
+\section{Arquitetura da GPU}
+
+\subsection{Uma visão macro}
+
+\subsection{A matriz dos processadores}
+
+
+\bibliographystyle{unsrt}  
+  \bibliography{references}
+
+\end{document}
